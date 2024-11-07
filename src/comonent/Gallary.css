@@ -1,0 +1,33 @@
+/* Gallery.css */
+.gallery .portfolio-gallery .col-lg-3,
+.gallery .portfolio-gallery .col-md-6,
+.gallery .portfolio-gallery .col-sm-6 {
+  padding: 0;
+}
+.gallery{
+    position: relative;
+    top: 250px;
+}
+.gallery .container-fluid{
+    position: relative;
+    top: -160px;
+}
+.gallery .portfolio-gallery img {
+  margin: 0;
+  display: block;
+  position: relative;
+  top: -200px;
+  width: 100%;       /* Ensures images take up full width of the column */
+  height: 300px;     /* Sets a fixed height for consistency */
+  object-fit: cover; /* Crops image to fit within specified dimensions */
+}
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+}
+img {
+    vertical-align: middle;
+    border-style: none;
+    overflow-clip-margin: content-box;
+    overflow: clip;
+}

@@ -1,0 +1,39 @@
+
+.services1{
+    height: 185vh;
+}
+
+/* Style for the media container */
+.media {
+    display: flex;
+    align-items: center;
+  }
+  
+  /* Style for the image */
+  .media img {
+    margin-right: 20px; /* Add space between the image and the text */
+  }
+  
+  /* Style for the media-body */
+  .media .media-body {
+    flex: 1; /* Ensures media-body takes remaining space */
+    text-align: left;
+  }
+ .h4ms{ font-size: 18px;
+    line-height: 30px;
+    font-weight: 800;
+}
+@media (max-width: 768px) {
+    .media {
+        display: block;
+        width: 250px;
+        height: auto;
+    }
+    .services1 .media img {
+        width: 100% !important;
+    }
+    .services1{
+        height: 250vh;
+    }
+
+}

@@ -1,0 +1,36 @@
+
+.main-container {
+    flex-direction: row; /* Default for larger screens */
+    flex-wrap: wrap;
+}
+
+.trainersec{
+    height: 240vh;
+}
+.row1{
+    position: relative;
+    top: 450px;
+}
+.card-body .text-color {
+    color: #f5634b;
+
+}
+.card-body{
+    margin-right: 100px;
+
+}
+
+.list-inline-item:not(:last-child) {
+    margin-right: .5rem;
+}
+
+.fas {
+    font-size: 20px;
+}
+
+/* Mobile Styles */
+@media (max-width: 768px) {
+    .trainersec{
+        height: 780vh;
+    }
+}

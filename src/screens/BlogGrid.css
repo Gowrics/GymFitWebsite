@@ -1,0 +1,43 @@
+.bloggrid .card a h4 {
+    font-weight: 700;
+  }
+.bloggrid{
+    height: 230vh;
+}
+
+  .bloggrid .card .text-color {
+    font-size: 15px;
+  }
+  .bloggrid .card {
+margin-left: 80px;
+width: 350px;
+}
+
+.bloggrid .img-fluid {
+    height: 300px;
+
+}
+
+  .bloggrid .card a h4:hover {
+    color: #f5634b;
+  }
+  
+  .blog-post-meta span {
+    font-size: 13px;
+  }
+  .bloggrid .card a h4 {
+    font-weight: 700;
+}
+
+  .bloggrid .font-secondary {
+    font-family: "Montserrat", sans-serif;
+    font-size: 20px;
+  
+}
+/* Optional: Add some responsiveness */
+@media (max-width: 768px) {
+    .bloggrid {
+        height: 770vh; /* Be cautious with fixed heights, as they might cause overflow issues */
+    }
+
+}

@@ -1,0 +1,99 @@
+.footer {
+    padding: 60px 0px;
+    background-color: #000; /* Dark background for footer */
+    text-align: center;
+    
+}
+.container{
+    position: relative;
+    top: -100px;
+}
+.footer h2,h4{
+    font-family: "Barlow Condensed", sans-serif;
+    font-weight: 700;
+        font-size: 22px;
+    line-height: 30px;
+
+}
+.footer p{
+    color: #fff;
+    opacity: .8;
+    font-size: 18px;
+    margin-top: 0;
+    margin-bottom: 3rem;
+    font-family: "Montserrat", sans-serif;
+}
+.footer span {
+    color: #fff; /* White color for text */
+    margin-bottom: 15px; /* Margin for paragraphs */
+}
+
+.footer .text-white-50 {
+    color: rgba(255, 255, 255, 0.5); /* Light white for subtle text */
+}
+
+.footer .footer-widget {
+    margin-bottom: 30px; /* Space between footer widgets */
+}
+
+.footer .footer-menu {
+    padding-left: 0; /* Reset padding for footer links */
+}
+
+.footer .footer-menu li {
+    margin-bottom: 10px; /* Space between list items */
+    text-decoration: none; 
+}
+
+.footer .footer-menu a {
+    color: #fff; /* White color for footer links */
+    text-decoration: none; /* Remove underline */
+    transition: color 0.3s; /* Smooth color transition on hover */
+}
+
+.footer .footer-menu a:hover {
+    color: #f5634b; /* Change color on hover */
+}
+
+.footer .footer-socials {
+    padding: 0; /* Reset padding for social icons */
+}
+
+.footer .footer-socials li {
+    margin-right: 20px; /* Space between social icons */
+}
+
+.footer .footer-socials a {
+    color: #fff; /* White color for social icons */
+    font-size: 20px; /* Icon size */
+    transition: color 0.3s; /* Smooth color transition on hover */
+}
+
+.footer .footer-socials a:hover {
+    color: #f5634b; /* Change color on hover */
+}
+
+.bg-black {
+    background-color: #000 !important; /* Override background color for inner sections */
+}
+
+.text-color {
+    color: #f5634b; /* Use for text with specific color */
+}
+
+
+
+.letter-spacing {
+    letter-spacing: 0.1em; /* Add letter spacing for headings */
+}
+
+.footer-menu a {
+    display: flex; /* Use flexbox for alignment */
+    align-items: center; /* Center align items vertically */
+    padding-left: 1.5rem;
+}
+
+.footer-menu a i {
+    margin-right: 0.5rem; /* Space between icon and text */
+    line-height: 1; /* Align icon vertically with text */
+}

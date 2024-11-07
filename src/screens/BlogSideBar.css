@@ -1,0 +1,115 @@
+.blogsidebar .card a h4 {
+    font-weight: 700;
+  }
+.blogsidebar{
+    height: 250vh;
+}
+  .blogsidebar .card .text-color {
+    font-size: 15px;
+  }
+  .blogsidebar .card {
+margin-left: 80px;
+width: 350px;
+}
+
+.blogsidebar .img-fluid {
+    height: 300px;
+
+}
+
+  .blogsidebar .card a h4:hover {
+    color: #f5634b;
+  }
+  
+  .blog-post-meta span {
+    font-size: 13px;
+  }
+  .blogsidebar .card a h4 {
+    font-weight: 700;
+}
+
+  .blogsidebar .font-secondary {
+    font-family: "Montserrat", sans-serif;
+    font-size: 20px;
+  
+}
+
+.follow .text-muted{
+width: 50px;
+height: 50px;
+}
+.follow .text-muted .fab{
+  position: relative;
+  top: -13px;
+}
+.search i {
+    position: absolute;
+    right: 15px;
+    top: 25px;
+  }
+  .follow i{
+    font-size: 20px;
+  }
+  .follow a {
+    width: 60px;
+    height: 65px;
+    background: #fff;
+    display: inline-block;
+    text-align: center;
+  
+}
+
+.listcontainer{
+  width: 300px;
+  height: auto;
+  background-color: white;
+}
+
+.listcontainer .text-muted1{
+  font-size: 21px;
+  margin: 10px;
+  padding: 7px;
+  margin: 0px;
+  color: gray;
+}
+
+.listcontainer .text-muted1:hover{
+  color: red;
+}
+.lnks{
+  color: rgb(37, 37, 37);
+  display: inline-block;
+  border: 1px solid #dedede;
+  padding: 4px 10px;
+  text-transform: capitalize;
+    font-size: 14px;
+    margin:10px 10px;
+}
+.lnks:hover{
+  color: red;
+}
+
+
+/* Add responsiveness */
+@media (max-width: 768px) {
+  .blogsidebar {
+      height: 770vh; /* Be cautious with fixed heights, as they might cause overflow issues */
+  }
+
+}
+@media (max-width: 768px) {
+  .row11 {
+      height: 530vh; /* Be cautious with fixed heights, as they might cause overflow issues */
+  }
+
+}
+
+/* Add responsiveness */
+.blogsidebar .row22{
+  height: 800vh;
+}
+
+
+.blog blogdetails{
+  height: 800vh;
+}

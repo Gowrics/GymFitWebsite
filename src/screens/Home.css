@@ -1,0 +1,444 @@
+.slider {
+    display: block;
+    align-items: center;
+    justify-content: center;
+    height: 150vh;
+    position: relative;
+    text-align: left;
+    background-image: url('../assets/gymbghome.jpg');
+    font-family: "Montserrat", sans-serif;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    z-index: 2; /* Ensure content is in front of overlay */
+    padding: 50px 20px;
+}
+.row{
+    position: relative;
+    top: 150px;
+    right: 30px;
+}
+.slider h1 {
+    font-size: 95px;
+    line-height: 95px;
+    font-family: "Barlow Condensed", sans-serif;
+    font-weight: 700; 
+}
+
+.slider span.subhead {
+    color: #fff;
+    letter-spacing: 5px;
+    border: 2px solid #fff;
+    padding: 13px 15px 5px 15px;
+    opacity: .8;
+    margin-top: 100px;
+    font-size: 18px;
+    font-weight: 400;
+}
+/* Overlay to create transparent effect */
+.slider::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    background: #000;
+    opacity: 0.8;
+}
+.sectionabout{
+position: relative; top: -100px;
+}
+
+.text-color {
+    color: #ff4757;
+    letter-spacing: .4px;
+    *, ::after, ::before {
+    box-sizing: border-box;
+}
+}
+*::after, ::before {
+    box-sizing: border-box;
+}
+
+/*  section mt-80*/
+
+.container {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.mt-80px  .row {
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+     position: relative;
+    top: -100px;
+    margin-right: -65px;
+    margin-left: -15px;
+z-index: 2;}
+
+
+/* Margin classes */
+.mt-3,.mt-4 {
+    margin-top: 1rem !important;
+}
+
+.my-3 .mt-3 {
+    margin-top: 1rem !important;
+    margin-bottom: 1rem !important;
+}
+
+/* Heading styles */
+.home h3, .home .h3 {
+    font-size: 28px;
+    line-height: 38px;
+    text-transform: uppercase;
+}
+
+.home h1, .home .h1,
+.home h2, .home .h2,
+.home h3, .home .h3,
+.home h4, .home .h4,
+.home h5, .home .h5,
+.home h6, .home .h6 {
+    font-family: "Barlow Condensed", sans-serif;
+    font-weight: 700;
+    color: #232323;
+    letter-spacing: 0.5px;
+}
+.home .h3{
+        font-size: 28px;
+        line-height: 38px;
+        text-transform: uppercase;
+}.hover-style-1 {
+    position: relative;
+    overflow: hidden;
+}
+
+.hover-style-1::before {
+    position: absolute;
+    content: '';
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 0;
+    transition: all 600ms ease;
+    background: linear-gradient(90deg, #f5634b 0%, #fe9418 100%);
+    z-index: 0;
+}
+
+.hover-style-1:hover::before {
+    height: 100%; /* Expands the background overlay on hover */
+}
+
+.hover-style-1 h3, 
+.hover-style-1 i,
+.hover-style-1 p, 
+.hover-style-1 a, 
+.hover-style-1 i, 
+.hover-style-1 h4 {
+    position: relative;
+    transition: all 600ms ease;
+    z-index: 1; /* Ensures text appears above the overlay */
+}
+
+/* Additional styling to enhance visibility */
+.hover-style-1 h3, .hover-style-1 p, .hover-style-1 a {
+    color: #232323;
+}
+.hover-style-1:hover h3, 
+.hover-style-1:hover p, 
+.hover-style-1:hover a {
+    color: #fff; /* Changes text color on hover */
+}
+.font-size-13 {
+    font-size: 13px;
+}
+.home .text-color {
+    color: #f5634b;
+}
+.font-weight-bold {
+    font-weight: 700 !important;
+}
+a {
+    color: #007bff;
+    text-decoration: none;
+    background-color: transparent;
+}
+.number {
+    opacity: 0.1;
+    font-size: 300px;
+    display: block;
+    line-height: 120px;
+    position: absolute;
+    top: 10px;
+}
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    unicode-bidi: isolate;
+}
+/*   home2*/
+.home2{
+    background-color: white;
+    width: 100%;
+    height: 90%;
+    position: relative;
+    top: -90px;
+   font-family: "Montserrat", sans-serif;
+}
+.home2 img{
+    width: 100%;
+    height: auto;
+}
+.home2, .home2 h2, .home2 p, .home2 a {
+    font-family: "Barlow Condensed", sans-serif;
+    font-weight: 700;
+    color: #232323;
+    letter-spacing: .5px;
+}
+.home2 h2 {
+    font-size: 38px;
+    line-height: 1.2;
+    text-transform: uppercase;
+}
+.home2 .row{
+    margin-bottom: 500px;
+    
+}
+.home2 p {
+    font-weight: 400; /* Normal font weight for paragraph text */
+    font-family: "Montserrat", sans-serif;
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    unicode-bidi: isolate;
+}
+
+.cta {
+    display: block;
+    align-items: center;
+    justify-content: center;
+    height: 60vh;
+    position: relative;
+    top: -10px;
+    text-align: left;
+    background-image: url('../assets/gymbghome.jpg');
+    font-family: "Montserrat", sans-serif;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    z-index: 2; /* Ensure content is in front of overlay */
+    }
+/* Overlay to create transparent effect */
+.cta::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    background: #000;
+    opacity: 0.8;
+}
+@media (max-width: 768px) {
+    .cta {
+        height: 140vh;
+    }
+}
+
+.cta .text-lg{
+    font-size: 56px;
+    line-height: 66px;
+    text-transform: uppercase;
+    font-family: "Barlow Condensed", sans-serif;
+    font-weight: 700;
+    letter-spacing: .5px;
+}
+h2,h4{
+    font-family: "Barlow Condensed", sans-serif;
+}
+p{
+    color: #666;
+    font-family: "Montserrat", sans-serif;
+}
+@media (max-width: 768px) {
+    .slider h1 {
+        font-size: 3rem;
+    }
+}
+
+.secservices .section-title {
+    position: relative;
+    top: -100px;
+}
+.secservices .no-gutters {
+position: relative;
+top: 100px;
+}
+
+
+/* Gallery.css */
+.gallery .portfolio-gallery .col-lg-3,
+.gallery .portfolio-gallery .col-md-6,
+.gallery .portfolio-gallery .col-sm-6 {
+  padding: 0;
+}
+.gallery{
+    position: relative;
+    top: 250px;
+}
+.gallery .container-fluid{
+    position: relative;
+    top: -160px;
+}
+.gallery .portfolio-gallery img {
+  margin: 0;
+  display: block;
+  position: relative;
+  top: -200px;
+  width: 100%;       /* Ensures images take up full width of the column */
+  height: 300px;     /* Sets a fixed height for consistency */
+  object-fit: cover; /* Crops image to fit within specified dimensions */
+}
+.img-fluid {
+    max-width: 100%;
+    height: auto;
+}
+img {
+    vertical-align: middle;
+    border-style: none;
+    overflow-clip-margin: content-box;
+    overflow: clip;
+}
+.textimonial{
+    display: block;
+    align-items: center;
+    justify-content: center;
+    height: 320vh;
+    position: relative;
+    top: 30px;    
+    text-align: left;
+    background-image: url('../assets/gymbghome.jpg');
+    font-family: "Montserrat", sans-serif;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    z-index: 2; /* Ensure content is in front of overlay */
+    }
+/* Overlay to create transparent effect */
+.textimonial::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    background: #000;
+    opacity: 0.8;
+}
+/* Media query for large screens */
+@media (min-width: 992px) {
+    .textimonial {
+        height: 210vh; /* Adjust height for larger screens */
+    }
+}
+.section-title{
+    position: relative;
+    top: -280px;
+    right: -40px;
+    
+}.section-title .text-white{
+    font-size: 38px;
+    text-transform: uppercase;
+    font-family: "Barlow Condensed", sans-serif;
+    font-weight: 700;
+    letter-spacing: .8px;
+    margin-bottom: .5rem;
+     line-height: 1.2;
+}
+.testimonial-slider{
+    position: relative;
+    top: -150px;
+}
+.course {
+    position: relative;
+    top: -30px; /* This negative margin might affect layout; consider removing or adjusting */
+    padding: 20px 0;
+    height: 150vh; /* Be cautious with fixed heights, as they might cause overflow issues */
+}
+
+.bg-gray {
+    background: #f0f2f4; /* Light gray background */
+}
+
+article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
+    display: block; /* This is fine for semantic elements */
+}
+
+*, ::after, ::before {
+    box-sizing: border-box; /* Ensures padding and border are included in width/height */
+}
+
+.card2 {
+    border: none; /* No border for a cleaner look */
+    height: 100%; /* Ensures all cards are the same height */
+    margin: 0 10px 20px; /* Adjusted for better spacing */
+    border-radius: 0; /* Removes border radius for a flat look */
+    overflow: hidden; /* Ensures that image overflow is hidden */
+    transition: transform 0.3s ease; /* Smooth transform effect */
+    position: relative;
+    top: 150px;
+}
+
+.card2 img {
+    width: 100%; /* Ensures the image fits the card */
+    height: auto; /* Maintains the aspect ratio */
+}
+
+.card2:hover {
+    transform: scale(1.05); /* Scale up the card on hover */
+}
+
+.font-secondary {
+    font-family: 'Montserrat', sans-serif; /* Set your desired font */
+    color: #333; /* Change to your preferred color */
+}
+
+.mb-2 {
+    margin-bottom: 0.5rem; /* Adjust margin for mentor text */
+}
+
+.course .section-title{
+    position: relative;
+    top: 50px;
+}
+/* Optional: Add some responsiveness */
+@media (max-width: 768px) {
+    .course {
+        height: 700vh; /* Be cautious with fixed heights, as they might cause overflow issues */
+    }
+
+}
+.btmlast{
+    position: relative;
+    top: 380px;
+    right: -140px;
+
+}

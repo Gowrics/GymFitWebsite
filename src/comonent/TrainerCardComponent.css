@@ -1,0 +1,48 @@
+/* TrainerCard.css */
+.card{
+position: relative;
+display: flex;
+-ms-flex-direction: column;
+flex-direction: column;
+min-width: 0;
+word-wrap: break-word;
+}
+.card-title {
+    color: #333;
+    font-size: 1.5em;
+  }
+  
+
+  .card-subtitle {
+    color: #777;
+    font-size: 1em;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+  }
+  
+  .img-fluid {
+    border-radius: 5px;
+  }
+  
+  .team-wrap ul li {
+    margin-right: 10px;
+  }
+  
+  .team-wrap ul li a {
+    color: #333;
+  }
+  
+  .team-wrap ul li a:hover {
+    color: #007bff;
+  }
+  
+  /* Trainers.css */
+  .section-title h2 {
+    color: #333;
+  }
+  
+  .bg-gray {
+    background-color: #f8f9fa;
+    padding: 60px 0;
+  }
+  
