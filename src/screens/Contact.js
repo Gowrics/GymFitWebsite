@@ -44,8 +44,6 @@ const Contact = () => {
                             </div>
                         </div>
                     </div>
-                     <div class="error" id="error">Sorry Msg dose not sent</div>
-                    <div class="success" id="success">Message Sent</div>
                 </form>
             </div>
 </div>
