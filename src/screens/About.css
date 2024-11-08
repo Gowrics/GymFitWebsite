@@ -23,10 +23,6 @@
     padding: 20px; /* Optional: Add some padding */
       }
 
-.rowtitle{
-    position: relative;
-    top: -130px;
-}
 .img-fluid{
     height: 600px;}
 .text-muted{

@@ -61,9 +61,3 @@ height: 100px;
     height: 350px; /* Set your desired fixed height */
 }
 
-@media (max-width: 768px) {
-    .course {
-        height: 480vh; /* Be cautious with fixed heights, as they might cause overflow issues */
-    }
-
-}

@@ -31,3 +31,9 @@ img {
     overflow-clip-margin: content-box;
     overflow: clip;
 }
+@media (min-width: 390px) {
+  .gallery {
+      text-align: center;
+      margin: 0px;
+  }
+}

@@ -13,7 +13,7 @@ const SectionTitle = ({ title, description, line, color = "black" }) => {
 
   return (
     <div className="col-lg-8 text-center">
-      <div className="section-title" style={secstyle.sectionTitle}>
+      <div className="section-title">
         <div className="divider mb-3"></div>
         <h1 style={{ color: '#f5634b', fontSize: '70px' }}>{line}</h1>
         <h2 style={{ color }}>{title}</h2>

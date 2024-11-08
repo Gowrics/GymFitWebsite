@@ -29,15 +29,15 @@ const Gallary = () => {
     <div>
         <div className='sec6'>
   <section className="gallery">
-      <div className="container">
+      <div className="container ">
         <div className="row justify-content-center">
         <SectionTitle title="Our Gallery" line="___" description="We offer more than 35 group exercis, aerobic classes each week."/>
         </div>
       </div>
-      <div className="container-fluid p-0">
-        <div className="row portfolio-gallery">
+      <div className="container-fluid p-0 ">
+        <div className="row portfolio-gallery ms-5 ">
           {images.map((image, index) => (
-            <div key={index} className="col-lg-3 col-md-6 col-sm-6 p-0">
+            <div key={index} className="col-lg-3 col-md-6 col-sm-6  ">
               <img
                 src={image}
                 alt={`Gallery Image ${index + 1}`}

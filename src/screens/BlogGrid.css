@@ -41,3 +41,10 @@ width: 350px;
     }
 
 }
+@media (max-width: 412px) {
+  .bloggrid {
+      height: 460vh; /* Be cautious with fixed heights, as they might cause overflow issues */
+    }
+  
+
+}

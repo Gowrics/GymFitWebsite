@@ -2,7 +2,8 @@
     display: block;
     align-items: center;
     justify-content: center;
-    height: 150vh;
+    height: 140vh;
+    width: 100%;
     position: relative;
     text-align: left;
     background-image: url('../assets/gymbghome.jpg');
@@ -21,9 +22,10 @@
 .slider h1 {
     font-size: 95px;
     line-height: 95px;
-    font-family: "Barlow Condensed", sans-serif;
-    font-weight: 700; 
+   
 }
+
+
 
 .slider span.subhead {
     color: #fff;
@@ -48,6 +50,13 @@
     background: #000;
     opacity: 0.8;
 }
+
+@media (max-width: 768px) {
+    .slider h1 { font-size: 3rem; }
+   .slider{padding-left: 20px;} 
+}
+
+
 .sectionabout{
 position: relative; top: -100px;
 }
@@ -63,14 +72,17 @@ position: relative; top: -100px;
     box-sizing: border-box;
 }
 
+@media (max-width: 768px) {
+    .sectionabout { 
+        font-size: 3rem; 
+    }
+    
+}
+
 /*  section mt-80*/
 
 .container {
     width: 100%;
-    padding-right: 15px;
-    padding-left: 15px;
-    margin-right: auto;
-    margin-left: auto;
 }
 .mt-80px  .row {
     display: flex;
@@ -84,6 +96,11 @@ position: relative; top: -100px;
     margin-left: -15px;
 z-index: 2;}
 
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
 
 /* Margin classes */
 .mt-3,.mt-4 {
@@ -231,7 +248,8 @@ p {
     display: block;
     align-items: center;
     justify-content: center;
-    height: 60vh;
+     height: auto;
+    min-height: 60vh; 
     position: relative;
     top: -10px;
     text-align: left;
@@ -257,9 +275,20 @@ p {
 }
 @media (max-width: 768px) {
     .cta {
-        height: 140vh;
+        height: auto;
+        min-height: 100vh;
+        padding-left: 30px;
     }
 }
+@media (max-width: 576px) {
+    .cta {
+        height: auto;
+        min-height: 120vh;
+        padding-left: 20px;
+
+    }
+}
+
 
 .cta .text-lg{
     font-size: 56px;
@@ -276,21 +305,15 @@ p{
     color: #666;
     font-family: "Montserrat", sans-serif;
 }
-@media (max-width: 768px) {
-    .slider h1 {
-        font-size: 3rem;
-    }
+.secservices .container{
+    text-align: center;
 }
 
-.secservices .section-title {
-    position: relative;
-    top: -100px;
-}
-.secservices .no-gutters {
-position: relative;
-top: 100px;
-}
 
+.secservices  i{
+ font-size: 70px;
+
+}
 
 /* Gallery.css */
 .gallery .portfolio-gallery .col-lg-3,
@@ -329,7 +352,9 @@ img {
     display: block;
     align-items: center;
     justify-content: center;
-    height: 320vh;
+    text-align: center;
+    height: auto;
+    min-height: 220vh;
     position: relative;
     top: 30px;    
     text-align: left;
@@ -357,6 +382,11 @@ img {
 @media (min-width: 992px) {
     .textimonial {
         height: 210vh; /* Adjust height for larger screens */
+    }
+}
+@media (min-width: 390px) {
+    .textimonial .testimonial-slider {
+        padding-left: 10px; /* Adjust height for larger screens */
     }
 }
 .section-title{
@@ -432,13 +462,26 @@ article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
 /* Optional: Add some responsiveness */
 @media (max-width: 768px) {
     .course {
-        height: 700vh; /* Be cautious with fixed heights, as they might cause overflow issues */
+        height: 300vh; /* Be cautious with fixed heights, as they might cause overflow issues */
     }
 
 }
+
 .btmlast{
     position: relative;
     top: 380px;
     right: -140px;
+
+}
+
+.trainersec{
+    height: 240vh;
+}
+
+@media (max-width: 768px) {
+    .trainersec {
+        height: 730vh; /* Be cautious with fixed heights, as they might cause overflow issues */
+        padding-left: 20px;
+    }
 
 }

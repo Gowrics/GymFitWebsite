@@ -45,12 +45,14 @@ const About = () => {
 {/*------------------------------ */}
     <section class="section why">
 	<div class="container1">
-		<div class="row rowtitle ms-5 justify-content-center">
-		<SectionTitle title="Why Choose us" line="___" description=""/>
+	<div class="row rowabout  ms-5 justify-content-center">
+     	<div class="row  justify-content-center" > 
 
+	{/*<div class="row rowtitle ms-5 justify-content-center">*/}
+		<SectionTitle title="Why Choose us" line="___" description=""/>
 		</div>
 
-		<div class="row rowabout">
+	{/*	<div class="row rowabout">*/}
 			<div class="col-lg-4 col-md-6 mb-5 " >
 				<div class="card col1 p-4 text-center mb-4 border-0 bg-black-50 rounded-0 ">
                 <i className="fas fa-dumbbell text-lg text-color"></i>

@@ -79,6 +79,16 @@ li{
 /* Mobile Styles */
 @media (max-width: 768px) {
     .pricing{
-        height: 370vh;
+        height: 220vh;
+        width: 100%;
+        padding-left: 40px;  
     }
+
+}
+@media (max-width: 360px) {
+  .pricing{
+      height: 270vh;
+      padding-left: 20px;
+  }
+  
 }

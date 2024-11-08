@@ -4,15 +4,13 @@ import SectionTitle from './SectionTitleComponent'
 const PeopleSayComponent = () => {
   return (
     <div>
-<section class="section textimonial position-relative bg-3">
-	<div class="container">
+<section class="section textimonial  position-relative ps-5 bg-3">
+	<div class="container justify-content-center">
 		<div class="row justify-content-center">
 			<div class="col-lg-8">
 				<div class="row justify-content-center">
-					<div class="col-lg-12 text-center">
 					<SectionTitle title={'What people say'}line={'___'} color='white'/>
 					</div>
-				</div>
 
 				<div class="testimonial-slider">
 					<div class="text-center mb-4 ">

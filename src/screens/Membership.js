@@ -6,16 +6,16 @@ import ButtonComponent from '../comonent/ButtonComponent';
 const Membership = () => {
   return (
     <div>
-              <PageTitle linkText="Home" linkHref="/" pageName="Pricing" pageInfo="Membership" />
-
-              <section class="section pricing">
+    <PageTitle linkText="Home" linkHref="/" pageName="Pricing" pageInfo="Membership" />
+	
+    <section class="section pricing">
 	<div class="container">
 		<div class="row justify-content-center"  style={{position:"relative",top:'350px'}}>
 		<SectionTitle title="Package pricing" line="___" description=""/>
 		</div>
 		<div class="row justify-content-center">
 			<div class="col-lg-4 col-md-6 mb-4 mb-lg-0">
-				<div class="card pricecard rounded-0 px-4 py-5 ">
+				<div class="card pricecard rounded-0 px-4  py-5 ">
 					<h4 class="card-title text-capitalize font-weight-normal font-secondary">Standard Pack</h4>
 					<h3 class="text-lg font-secondary position-relative mt-2"><sup class="text-sm position-absolute">$</sup>12  <sub>per month</sub></h3>
 

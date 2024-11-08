@@ -15,7 +15,7 @@ const CoursePage = () => {
 		<SectionTitle title="popular courses" line="___" description=""/>
 		</div>
 
-		<div class="row rowcrd1" style={{marginTop:'70px'}}>
+		<div class="row ">
 			<div class="col-lg-4 col-md-6">
 				<div class="card crdcourse rounded-0 p-0 mb-5" >
 					<img src={img3} alt="" class="img-fluid imgcrd"/>
