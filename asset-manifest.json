@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/GymFitWebsite/static/css/main.482a2070.css",
+    "main.css": "/GymFitWebsite/static/css/main.d6d15827.css",
     "main.js": "/GymFitWebsite/static/js/main.dd861f74.js",
     "static/js/453.d5f92d9b.chunk.js": "/GymFitWebsite/static/js/453.d5f92d9b.chunk.js",
     "static/media/fa-solid-900.ttf": "/GymFitWebsite/static/media/fa-solid-900.07ed6d5fa32c1d54af0f.ttf",
@@ -34,12 +34,12 @@
     "static/media/img3.jfif": "/GymFitWebsite/static/media/img3.8f58ee80b927053c21db.jfif",
     "static/media/fa-v4compatibility.woff2": "/GymFitWebsite/static/media/fa-v4compatibility.6cfec8414be20e2c3426.woff2",
     "index.html": "/GymFitWebsite/index.html",
-    "main.482a2070.css.map": "/GymFitWebsite/static/css/main.482a2070.css.map",
+    "main.d6d15827.css.map": "/GymFitWebsite/static/css/main.d6d15827.css.map",
     "main.dd861f74.js.map": "/GymFitWebsite/static/js/main.dd861f74.js.map",
     "453.d5f92d9b.chunk.js.map": "/GymFitWebsite/static/js/453.d5f92d9b.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.482a2070.css",
+    "static/css/main.d6d15827.css",
     "static/js/main.dd861f74.js"
   ]
 }
