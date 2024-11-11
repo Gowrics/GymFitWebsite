@@ -20,15 +20,15 @@ const BlogSideBar = () => {
     return (
     <div>
      <PageTitle linkText="Home" linkHref="/" pageName="Our blog" pageInfo="Blog article" />
-
-     <section className="section blog blogsidebar bg-gray">
+     <section className="section blog blogsidebar  bg-gray">
       <div className="container">
-      <div class="row">
-      <div class="col-lg-9 row11">
-        <div className="row">
+      <div class="row justify-content-center">
+      <div class="col-lg-9 row11 justify-content-center">
+        <div className="row justify-content-center">
           {posts.map((post, index) => (
-            <div className="col-lg-6 col-md-6" key={index}>
-              <article className="card border-0 rounded-0 mb-4">
+        
+            <div className="col-lg-6 col-md-6 justify-content-center" key={index}>
+              <article className="card border-0 rounded-0 mb-4 justify-content-center">
                 <img src={post.img} alt="Blog post" className="img-fluid" />
 
                 <div className="mt-3 px-4 py-3">
@@ -85,11 +85,11 @@ const BlogSideBar = () => {
   </div>
 </div>
 </div>
-<div class="col-lg-3">
-<div className="card border-0 rounded-0 mb-5">
+<div class="col-lg-3 sides">
+<div className=" border-0 rounded-0  mt5 justify-content-center mb-5">
       <form action="#" className="search position-relative">
-        <input type="text" placeholder="Search" className="form-control" />
-        <i className="fas fa-search position-absolute" style={{ right: '10px', top: '50%', transform: 'translateY(-50%)' }}></i>
+        <input type="text" placeholder="Search" className="form-control justify-content-center " />
+        <i className="fas fa-search position-absolute"></i>
       </form>
     </div>
     <div className="mb-5 follow">

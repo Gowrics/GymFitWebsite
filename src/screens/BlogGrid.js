@@ -19,12 +19,12 @@ const BlogGrid = () => {
     
     
     return (
-    <div>
+    <div className='main-wrapper'>
         
 <PageTitle linkText="Home" linkHref="/" pageName="Our blog" pageInfo="Blog article" />
-    <section className="section blog bloggrid bg-gray">
-      <div className="container">
-        <div className="row">
+    <section className="section blog bloggrid bg-gray ">
+      <div className="container ">
+        <div className="row rows justify-content-center">
           {posts.map((post, index) => (
             <div className="col-lg-4 col-md-6" key={index}>
               <article className="card border-0 rounded-0 mb-4">

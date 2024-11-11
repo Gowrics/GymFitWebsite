@@ -39,3 +39,20 @@
     }
 
 }
+
+@media (max-width: 360px) {
+    .media {
+        display: block;
+        width: 100%;
+        height: auto;
+    }
+    .services1 .media img {
+        width: 100% !important;
+    }
+    .services1{
+        height: 340vh;
+
+        padding-left: 30px;
+    }
+
+}

@@ -9,7 +9,7 @@ function FooterComponent() {
     <footer className="footer bg-black-50">
       <div className="container">
         <div className="row">
-          <div className="col-lg-4 col-md-6 mb-5 mb-lg-0">
+          <div className="col-lg-4 ps-5 col-md-6 mb-5 mb-lg-0">
             <h2 className="text-white mb-4">GymFit</h2>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptatibus illo ad quo sunt maiores, sint nostrum omnis eaque cumque dolorum.</p>
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
@@ -19,11 +19,11 @@ function FooterComponent() {
             <div className="footer-widget recent-blog">
               <h4 className="mb-4 text-white letter-spacing text-uppercase">Recent Posts</h4>
               <div>
-                <a href="blog-single.html" className="text-white">Claritas est etiam processus dynamicus</a>
+                <Link to ="#" className="text-white">Claritas est etiam processus dynamicus</Link>
                 <p className="text-sm mt-2 text-white-50">30 February 2019</p>
               </div>
               <div className="mt-4">
-                <a href="blog-single.html" className="text-white">Claritas est etiam processus dynamicus</a>
+              <Link to ="#" className="text-white">Claritas est etiam processus dynamicus</Link>
                 <p className="text-sm mt-2 text-white-50">30 February 2019</p>
               </div>
             </div>
@@ -33,11 +33,11 @@ function FooterComponent() {
             <div className="footer-widget">
               <h4 className="mb-4 text-white letter-spacing text-uppercase">Quick Links</h4>
               <ul className="list-unstyled footer-menu lh-40 mb-0">
-  <li><a href="about.html"><i className="fas fa-angle-double-right mr-2"></i> About Us</a></li>
-  <li><a href="service.html"><i className="fas fa-angle-double-right mr-2"></i> Services</a></li>
-  <li><a href="pricing.html"><i className="fas fa-angle-double-right mr-2"></i> Membership</a></li>
-  <li><a href="course.html"><i className="fas fa-angle-double-right mr-2"></i> Courses</a></li>
-  <li><a href="contact.html"><i className="fas fa-angle-double-right mr-2"></i> Contact us</a></li>
+  <li><Link to ="#"><i className="fas fa-angle-double-right mr-2"></i> About Us</Link></li>
+  <li><Link to ="#"><i className="fas fa-angle-double-right mr-2"></i> Services</Link></li>
+  <li><Link to ="#"><i className="fas fa-angle-double-right mr-2"></i> Membership</Link></li>
+  <li><Link to ="#"><i className="fas fa-angle-double-right mr-2"></i> Courses</Link></li>
+  <li><Link to ="#"><i className="fas fa-angle-double-right mr-2"></i> Contact us</Link></li>
 </ul>
 
             </div>
@@ -60,19 +60,19 @@ function FooterComponent() {
           <div className="col-lg-4 ms-4 ml-auto text-right">
 <ul className="list-inline mb-0 footer-socials">
   <li className="list-inline-item">
-    <a href="https://www.facebook.com/themefisher">
+    <Link to="https://www.facebook.com/themefisher">
       <i className="fab fa-facebook-f"></i> {/* Facebook icon */}
-    </a>
+    </Link>
   </li>
   <li className="list-inline-item">
-    <a href="https://twitter.com/themefisher">
+    <Link to ="https://twitter.com/themefisher">
       <i className="fab fa-twitter"></i> {/* Twitter icon */}
-    </a>
+    </Link>
   </li>
   <li className="list-inline-item">
-    <a href="https://github.com/themefisher/">
+    <Link to="https://github.com/themefisher/">
       <i className="fab fa-github"></i> {/* GitHub icon */}
-    </a>
+    </Link>
   </li>
 </ul>
           </div>

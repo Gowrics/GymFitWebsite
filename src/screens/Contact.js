@@ -4,7 +4,7 @@ import SectionTitle from '../comonent/SectionTitleComponent';
 import './Contact.css'
 const Contact = () => {
   return (
-    <div>
+    <div className='contact'>
       <PageTitle 
         linkText="Home" 
         linkHref="/" 
@@ -22,18 +22,14 @@ const Contact = () => {
         <div class="row justify-content-center pb-5 contactform">
 <div class="col-lg-9 text-center">
                 <form id="contact-form">
-                    <div class="form-row">
-                        <div class="col-lg-6 col-md-6 col-sm-12">
-                            <div class="form-group">
-                                <input name="user_name" type="text" class="form-control" placeholder="Your Name"/>
-                            </div>
-                        </div>
-                        <div class="col-lg-6 col-md-6 col-sm-12">
-                            <div class="form-group">
-                                <input name="user_email" type="text" class="form-control" placeholder="Email Address"/>
-                            </div>
-                        </div>
-                       
+                <div class=" form-row ">
+                     <div class="col-lg-6 col-md-6 col-sm-12 ">
+                       <input type="text" class="form-control" placeholder="Enter email" name="email"/>
+                    </div>
+                    <div class="col">
+                        <input type="password" class="form-control" placeholder="Enter password" name="pswd"/>
+                    </div>
+
                         <div class="col-lg-12 col-md-12 col-sm-12">
                             <div class="form-group-2">
                                 <textarea name="user_message" class="form-control" rows="8" placeholder="Your Message"></textarea>
@@ -51,4 +47,4 @@ const Contact = () => {
   );
 }
 
-export default Contact;
+export default Contact;     

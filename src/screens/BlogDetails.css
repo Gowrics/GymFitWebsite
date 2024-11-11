@@ -1,0 +1,17 @@
+.blogdet {
+    height: 420vh;
+  }
+  
+  @media (max-width: 360px) {
+    .blogdet {
+      height: 830vh; /* Adjust as needed */
+     }
+     .blogdet section{
+        margin-left: 100px;
+     }
+     .blogdet .row11{
+        height: 600vh;
+     } 
+.sideicon .follow .listgroup{
+        margin-right: 160px;
+    } }

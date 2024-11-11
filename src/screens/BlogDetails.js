@@ -5,23 +5,24 @@ import post3 from '../assets/post3.jpg'; // Adjust path based on image location
 import post4 from '../assets/post4.jpg'; // Adjust path based on image location
 import post5 from '../assets/post5.jpg'; // Adjust path based on image location
 import './BlogSideBar.css';
+import './BlogDetails.css';
+
 import { Link } from 'react-router-dom';
 
 const BlogDetails = () => {
-    const posts = [
-        { img: post1, title: 'Make your fitness Boost with us' },
-        { img: post3, title: 'Ethernity beauty health diet plan' },
-        { img: post4, title: 'Ever too late to lose weight?' },
-        { img: post5, title: 'Make your fitness Boost with us' },
-
-    ];
+  const posts = [
+    {  image: post1, author:"John Stain", title: "Track your daily body fitness",link: "#"  },
+    { image: post3,author:"John Stain", title: "Keep your body fitness track", link: "#",  },
+    { image: post4,author:"John Stain", title: "Keep your body fitness track",link: "#",   },
+  ];
+  
     return (
     <div>
      <PageTitle linkText="Home" linkHref="/" pageName="blog single" pageInfo="Enhance beauty Health" />
-
-     <section className="section blog blogdetails blogsidebar bg-gray" style={{height:'300vh'}}>
+<div className='blogdet bg-gray'> 
+     <section className="section blog blogdetails bg-gray">
       <div className="container">
-      <div class="row justify-content-center">
+      <div class="row  rowicon justify-content-center">
       <div class="col-lg-9 col-md-12 row11">
         <div className="row ">
         <div className="col-lg-12 ">
@@ -46,10 +47,7 @@ const BlogDetails = () => {
 
       <div className="media mb-4">
         <img
-          src="images/blog/blog-post-5.jpg"
-          alt=""
-          className="img-fluid mr-4"
-        />
+          src={post4} alt=""className="img-fluid mr-4"  style={{width:'500px',height:'400px'}}  />
         <div className="media-body">
           <p>
             Pellentesque habitant morbi tristique senectus et netus et malesuada
@@ -67,9 +65,9 @@ const BlogDetails = () => {
         Aliquam sagittis dictum augue. Duis fringilla nec augue eu laore
       </p>
 
-      <div className="post-tags my-5 text-uppercase font-size-12 letter-spacing text-center">
+      <div className="post-tags my-5 text-uppercase font-size-10 letter-spacing text-center">
         <Link to="#" className="mr-2 text-black">
-          <i className="fas fa-bookmark mr-2 text-color"></i>Yoga
+          <i className="fas fa-bookmark  mr-2 text-color"></i>Yoga
         </Link>
         <Link to="#" className="mr-2 text-black">
           <i className="fas fa-bookmark mr-2 text-color"></i>Meditation
@@ -104,42 +102,57 @@ const BlogDetails = () => {
         </ul>
       </div>
 
-
+      <div className="mt-4 py-4 text-center social-share">
+      <h4 className=" font-secondary text-uppercase font-weight-normal">More similar posts</h4>
+      <div className="row">
+        {posts.map((post, index) => (
+          <div className="col-lg-4" key={index}>
+            <article className="card border-0 rounded-0 mb-4"  style={{width:'250px',height:'345px'}}>
+              <img
+                src={post.image}
+                alt={post.title}
+                className="img-fluid"
+              />
+              <div className="mt-3 px-4 py-3">
+                <span className="post-meta author text-capitalize text-sm">
+                  <i className="fas fa-user mr-2 text-muted"></i>{post.author}
+                </span>
+                <a href={post.link}>
+                  <h5 className="font-secondary mt-2">{post.title}</h5>
+                </a>
+              </div>
+            </article>
+          </div>
+        ))}
+      </div>
+    </div>
     </div>
 </div>
-<div className="row rowicon">
+<div className="row mt-5 ">
   <div className="col-lg-12 mt-5">
     <nav aria-label="Page navigation">
       <ul className="pagination justify-content-center">
         <li className="page-item">
           <a className="page-link" href="#">
-            <i className="fas fa-chevron-left"></i> {/* Previous Icon */}
+            <i className="fas fa-chevron-left"></i> Previous{/* Previous Icon */}
           </a>
-        </li>
-        <li className="page-item active" aria-current="page">
-          <a className="page-link" href="#">1</a>
-        </li>
-        <li className="page-item">
-          <a className="page-link" href="#">2</a>
-        </li>
-        <li className="page-item">
-          <a className="page-link" href="#">3</a>
         </li>
         <li className="page-item">
           <a className="page-link" href="#">
-            <i className="fas fa-chevron-right"></i> {/* Next Icon */}
+            <i className="fas fa-chevron-right"></i> Next {/* Next Icon */}
           </a>
         </li>
       </ul>
     </nav>
   </div>
 </div>
+
 </div>
-<div class="col-lg-3">
-<div className="card border-0 rounded-0 mb-5">
+<div className="col-lg-3 sideicon" >
+<div className=" border-0 rounded-0  mt5 justify-content-center mb-5">
       <form action="#" className="search position-relative">
-        <input type="text" placeholder="Search" className="form-control" />
-        <i className="fas fa-search position-absolute" style={{ right: '10px', top: '50%', transform: 'translateY(-50%)' }}></i>
+        <input type="text" placeholder="Search" className="form-control justify-content-center " />
+        <i className="fas fa-search position-absolute"></i>
       </form>
     </div>
     <div className="mb-5 follow">
@@ -248,7 +261,7 @@ const BlogDetails = () => {
 </div>
 
 </section>
-
+    </div>
     </div>
   )
 }

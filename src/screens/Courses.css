@@ -37,4 +37,13 @@ h2, .h2 {
 
     
     }
+    @media (max-width: 360px) {
+        .course1 {
+            height: 540vh; /* Be cautious with fixed heights, as they might cause overflow issues */
+             padding-left: 40px;
+
+        }
+
+    
+    }
     

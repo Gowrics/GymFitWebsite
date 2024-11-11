@@ -2,20 +2,16 @@
     font-weight: 700;
   }
 .blogsidebar{
-    height: 250vh;
+    height: 380vh;
 }
   .blogsidebar .card .text-color {
     font-size: 15px;
   }
   .blogsidebar .card {
-margin-left: 80px;
+margin-left: 54px;
 width: 350px;
 }
 
-.blogsidebar .img-fluid {
-    height: 300px;
-
-}
 
   .blogsidebar .card a h4:hover {
     color: #f5634b;
@@ -34,25 +30,41 @@ width: 350px;
   
 }
 
+.search {
+  position: relative;
+  width: 100%; /* or set a custom width */
+}
+
+.search input {
+  padding-right: 40px; /* Adjust to make space for the icon */
+}
+
+.search i {
+  position: absolute;
+  right: 10px; /* Distance from the right edge of the input */
+  top: 50%; /* Center vertically */
+  transform: translateY(-50%); /* Adjust to perfect vertical center */
+  color: #888; /* Adjust icon color if needed */
+}
+
+.mt5{
+  margin-top: 143px;
+}
+
 .follow .text-muted{
-width: 50px;
-height: 50px;
+width: 40px;
+height: 40px;
 }
 .follow .text-muted .fab{
   position: relative;
-  top: -13px;
+  top: -18px;
 }
-.search i {
-    position: absolute;
-    right: 15px;
-    top: 25px;
-  }
   .follow i{
     font-size: 20px;
   }
   .follow a {
     width: 60px;
-    height: 65px;
+    height: 60px;
     background: #fff;
     display: inline-block;
     text-align: center;
@@ -97,11 +109,13 @@ height: 50px;
   }
 
 }
-@media (max-width: 768px) {
+@media (max-width: 360px) {
   .row11 {
-      height: 530vh; /* Be cautious with fixed heights, as they might cause overflow issues */
+      height: 560vh; /* Be cautious with fixed heights, as they might cause overflow issues */
   }
-
+.sides{
+  margin-left: 80px;
+}
 }
 
 /* Add responsiveness */
@@ -112,4 +126,35 @@ height: 50px;
 
 .blog blogdetails{
   height: 800vh;
+}
+
+.font-secondary {
+    font-family: "Montserrat", sans-serif;
+}
+
+.pagination {
+  border: 0px;
+}
+
+.pagination li a {
+  color: #232323;
+}
+
+.pagination .page-item.active .page-link {
+  background-color: #f5634b;
+  border-color: #f5634b;
+  color: #fff !important;
+}
+
+.pagination .page-item:last-child .page-link {
+  border-radius: 0px;
+}
+
+.pagination .page-item:first-child .page-link {
+  border-radius: 0px;
+}
+
+.pagination .page-link {
+  background: transparent;
+  padding: 15px 20px;
 }

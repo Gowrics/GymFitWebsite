@@ -4,7 +4,8 @@
     display: flex; /* Enable flexbox for card content */
     flex-direction: column; /* Align items in a column */
     justify-content: space-between; /* Space items evenly */
-height: 100px;
+height: 200px;
+
 }
 
 .card1:hover {
@@ -46,7 +47,7 @@ height: 100px;
     margin-right: 100px;
 }
 .card1{
-    width: 800px;
+    width: 2300px;
     height:380px;
 }
 .list-inline-item:not(:last-child) {
@@ -60,4 +61,5 @@ height: 100px;
 .card2 {
     height: 350px; /* Set your desired fixed height */
 }
+
 

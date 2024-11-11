@@ -1,133 +1,62 @@
-/* NavbarComponent.css */
-/* Import Montserrat font */
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap');
-
-
-/* Background and font styling for the navbar */
-/* NavbarComponent.css */
-.body{
-  line-height: 1.8;
-    font-family: "Montserrat", sans-serif;
-    -webkit-font-smoothing: antialiased;
-    font-size: 16px;
-    color: rgba(0, 0, 0, 0.6);
-
-}
-
+/* Navbar base styles */
 .navigation {
-    background-color:rgba(0, 0, 0, 0.8 ); /* Semi-transparent background */
-    height: 100px;
-    padding: 0.5rem 0;
-    position: fixed; /* Make the navbar overlay */
-    top: 0;
-    width: 100%; /* Stretch navbar across the screen */
-
+  background-color: transparent;
+  transition: background-color 0.3s ease;
 }
+
+/* Navbar background color when scrolled */
+.fixed-nav {
+  background-color: black; /* Changes the background to black */
+  color: white;
+}
+
+/* Other CSS styles */
+.navbar-nav .nav-link {
+  font-family: "Montserrat", sans-serif;
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 14px;
+  letter-spacing: 1px;
+  transition: all 0.25s ease;
+}
+
+.navbar-nav .nav-link:hover,
+.navbar-nav .nav-link:focus {
+  color: #f5634b;
+}
+
+
+.navbar-toggler {
+  background-color: #fff;
+  border: 1px solid #fff;
+  border-radius: 0;
+  padding: 5px 10px;
+}
+
 .navbar-collapse.collapse.show {
   background: #181a23;
 }
-.collapse:not(.show) {
-    display: none;
-}
-  .navigation .navbar-brand-custom h2 {
-    color: #fff;
-    font-family: "Barlow Condensed", sans-serif;
-    font-weight: 700;
-    letter-spacing: .5px;
-}
+
+.dropdown-menu {
+  background: #1c1c1c;
   
-  .navigation .navbar-brand-custom h2 .text-color {
-    color:#f5634b; /* Customize with your preferred accent color */
-  }
-  
-  .navigation .nav-item {
-    margin-left: 1rem;
-  }
-  
-  .navigation .nav-link {
-    color:#fff;
-    font-weight: 500;
-    transition: color 0.3s ease;
-    font-family: "Montserrat", sans-serif;
-    text-transform: uppercase;
-    font-size: 19px; letter-spacing: 1px;
-    transition: all .25s ease;
-  }
-  
-  .navigation .nav-link:hover,
-  .navigation .nav-link:focus {
-    color: #ff6347; /* Same accent color as logo text */
-    text-decoration: none;
-  }
-  .fixed-nav {
-    background:black;
 }
-.fixed-top {
-    position: fixed;
-    top: 0;
-    right: 0;
-    left: 0;
-    z-index: 1030;
+.dropdown-menu a {
+  color: #fff;
 }
-  .dropdown-menu {
-    background-color:black;
-    border: none;
-    border-radius: 0;
-  }
-  
-  .dropdown-menu .dropdown-item {
-    color: #fff;
-    padding: 0.5rem 1rem;
-  }
-  
-  .dropdown-menu .dropdown-item:hover {
-    background-color: #555;
-    color: #ff6347;
-  }
-  
-  .contact-info h3 {
-    color: #ff6347;
-    font-size: 1.2rem;
-  }
-  
-  .contact-info a:hover h3 {
-    color: #fff;
-}
-.navbar-contact-info{margin-right: 20px;}
-.navbar-contact-info .text-color{
-    color: #ff6347;
-}
-.navbar-contact-info .ph-link{
-    text-decoration: none;
-}
-.navbar-contact-info .fas{
-    margin-right: 20px;
-    font-size: 36px;
-}
-.navbar-toggler {
-    background-color: #fff;
-    border: 1px solid #fff;
-    border-radius: 0px;
-    padding: 5px 10px;
+.dropdown-menu a:hover {
+  color:orangered;
+  background-color: #181a23;
 }
 
-
-/* CSS */
-.nav-item.dropdown .dropdown-toggle::after {
-  display: none;
+.dropdown:hover .dropdown-menu {
+  display: block;
+  visibility: visible;
+  opacity: 1;
+  z-index: 20;
+  -webkit-transform: translateY(0%);
+  transform: translateY(0%);
 }
-
-
-@media (max-width: 768px) {
-  .navbar-toggler {
-position: relative;
-left: -20px;
-  }  
-}
-
-
-@media (max-width: 1100px) {
-  .navigation .navbar-contact-info .text-color {
-display: none;
-  }  
+.navbar-nav .nav-link:hover, .navbar-nav .nav-link:focus {
+  color: #f5634b;
 }
