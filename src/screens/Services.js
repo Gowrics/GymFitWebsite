@@ -17,12 +17,12 @@ const Services = () => {
      <div>
 <section class="section services1 ">
 	<div class="container">
-		<div class="row justify-content-center" style={{position:"relative",top:'350px'}}>
+		<div class="row justify-content-center" style={{position:"relative",top:'450px'}}>
 		<SectionTitle title="Our Services" line="___" description="We offer more than 35 group exercis, aerobic classes each week."/>
 		</div>
 
-		<div class="row">
-			<div class="col-lg-6 col-md-6 col-sm-6 ">
+		<div class="row mt-5 ms-5">
+			<div class="col-lg-6 col-md-6  col-sm-6 ">
 				<div class="media align-items-center mb-4">
 				  <img src={service1} class=" mr-3 w-50" alt="..."/>
 

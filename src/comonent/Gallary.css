@@ -4,14 +4,7 @@
 .gallery .portfolio-gallery .col-sm-6 {
   padding: 0;
 }
-.gallery{
-    position: relative;
-    top: 250px;
-}
-.gallery .container-fluid{
-    position: relative;
-    top: -160px;
-}
+
 .gallery .portfolio-gallery img {
   margin: 0;
   display: block;

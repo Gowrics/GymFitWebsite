@@ -1,30 +1,31 @@
 .container1{
-    width: 100%;
-    padding-right: 15px;
-    padding-left: 45px;
+    width: 80%;
+padding-left: 360px;
+padding-bottom: 100px;
 }
 .main-container {
     flex-direction: row; /* Default for larger screens */
     flex-wrap: wrap;
 }
+.why  h3{font-size: 23px;
+    line-height: 38px;
+    text-transform: uppercase;}
 /* Mobile Styles */
-@media (max-width: 768px) {
-    .main-container {
-        flex-direction: column; /* Stacks elements vertically on small screens */
-    }
-}
+
 ::after, ::before {
     box-sizing: border-box;
 }
 /* section about  */
 .section-about{
-    height: 190vh;
+    height: 140vh;
     background-color: white;
     padding: 20px; /* Optional: Add some padding */
       }
 
-.img-fluid{
-    height: 600px;}
+.container1 .img-fluid{
+    width: 300px;
+     height: 410px;
+    }
 .text-muted{
     font-size: 56px;
     line-height: 66px;
@@ -44,75 +45,59 @@
     font-family: "Montserrat", sans-serif;
 font-size: large; 
 }
-@media (max-width: 768px) {
-    .section-about {  height: 380vh; padding-left: 60px; }
-    .img-fluid{  width: 600px;   }                 
-}
+
 /* --------section about end----------  */
 /* --------section why ----------  */
 
-.why{   height:100vh ;}
+.why{   height:60vh ;}
 .why .card {
     transition: all .4s ease 0s;
 }
 .bg-black-50 {
     background: #181a23;
 }
-.col-lg-4{
+.why .col-lg-4{
     position: relative;
-    width:30%;
-    margin-right: 20px;
-    padding-right: 25px;
-    padding-left: 25px;
+    width:340px;
+    height: 270px;
+
 }
 .text-center {
     text-align: center !important;
 }
 
 .col2:hover,.col4:hover,.col6:hover{
-    background-color: black;
+    background-color: #181a23;
     color: white;
     p{color: white;  }
      
 }
 .why i{
-    font-size: 70px;
+    font-size: 60px;
+}
+.why p{
+    line-height: 1.8;
+    font-family: "Montserrat", sans-serif;
+    -webkit-font-smoothing: antialiased;
+    font-size: 16px;
+    color: rgba(0, 0, 0, 0.6);
 }
 
-/* Media Query for .why section on small screens */
-@media (max-width: 768px) {
-    .why {
-        height: auto; /* Allow the section to adjust its height automatically */
-        padding: 20px; /* Reduce padding for mobile */
+@media (max-width: 412px) {    
+    .main-container{
+        text-align: center;
     }
-    .why .card {
-        width: 100%; /* Make cards full width */
-        margin-bottom: 20px; /* Add some spacing between cards */
-    }
-    .col-lg-4 {
-        width: 100%; /* Full width for each column on mobile */
-        margin-right: 0; /* Remove right margin */
-        padding-right: 0; /* Remove padding */
-        padding-left: 0; /* Remove padding */
-    }
-    .why i {
-        font-size: 50px; /* Adjust icon size for mobile */
-    }
-    .text-muted {
-        font-size: 28px; /* Adjust text size for mobile */
-    }
-
-    .mb-3 {
-        font-size: 24px; /* Adjust the font size for subheadings */
-    }
-
-    p {
-        font-size: medium; /* Adjust paragraph text size for better readability */
-    }
-
-    .row1 {
-        margin-left: 0; /* Remove left margin on mobile */
-        top: 0; /* Reset top position */
+ .container1{
+    width: 80%;
+    text-align: center;
+    padding-left: 30px;
+    padding-right: 0px;
+    padding-bottom: 0px;
+}
+.section-about{
+    padding: 0px;
+    height: 230vh; }   
+    .why{
+        height: 200vh;
     }
 }
-/* --------section why  end  ----------  */

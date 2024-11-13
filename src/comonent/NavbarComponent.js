@@ -34,7 +34,7 @@ function NavbarComponent() {
       onToggle={() => setExpanded(!expanded)}
     >
       <Container fluid>
-        <Navbar.Brand as={Link} className="navbar-brand-custom" to="/" onClick={() => setExpanded(false)}>
+        <Navbar.Brand as={Link} className="navbar-brand-custom" to="/" onClick={() => { window.scrollTo(0, 0); setExpanded(false)}}>
           <h2 className="text-white text-capitalize">
             Gym<span className="text-color">Fit</span>
           </h2>
@@ -42,23 +42,23 @@ function NavbarComponent() {
         <Navbar.Toggle aria-controls="navbar-nav" onClick={() => setExpanded(!expanded)} />
         <Navbar.Collapse id="navbar-nav" className="text-center">
           <Nav className="mx-auto">
-            <Nav.Link as={Link} to="/" className="nav-item" onClick={() => setExpanded(false)}>Home</Nav.Link>
+            <Nav.Link as={Link} to="/" className="nav-item" onClick={() => { window.scrollTo(0, 0);setExpanded(false)}}>Home</Nav.Link>
             <NavDropdown title="Pages" id="dropdown03" className="nav-item dropdown">
-              <NavDropdown.Item as={Link} to="/about" onClick={() => setExpanded(false)}>About</NavDropdown.Item>
-              <NavDropdown.Item as={Link} to="/trainer" onClick={() => setExpanded(false)}>Trainer</NavDropdown.Item>
-              <NavDropdown.Item as={Link} to="/courses" onClick={() => setExpanded(false)}>Courses</NavDropdown.Item>
+              <NavDropdown.Item as={Link} to="/about" className='dropdown-item' onClick={() =>{ window.scrollTo(0, 0); setExpanded(false)}}>About</NavDropdown.Item>
+              <NavDropdown.Item as={Link} to="/trainer" className='dropdown-item' onClick={() => { window.scrollTo(0, 0);setExpanded(false)}}>Trainer</NavDropdown.Item>
+              <NavDropdown.Item as={Link} to="/courses" className='dropdown-item' onClick={() =>{ window.scrollTo(0, 0); setExpanded(false)}}>Courses</NavDropdown.Item>
             </NavDropdown>
-            <Nav.Link as={Link} to="/services" className="nav-item" onClick={() => setExpanded(false)}>Services</Nav.Link>
-            <Nav.Link as={Link} to="/membership" className="nav-item" onClick={() => setExpanded(false)}>Membership</Nav.Link>
+            <Nav.Link as={Link} to="/services" className="nav-item" onClick={() =>{ window.scrollTo(0, 0); setExpanded(false)}}>Services</Nav.Link>
+            <Nav.Link as={Link} to="/membership" className="nav-item" onClick={() => { window.scrollTo(0, 0); setExpanded(false)}}>Membership</Nav.Link>
             <NavDropdown title="Blog" id="dropdown05" className="nav-item dropdown">
-              <NavDropdown.Item as={Link} to="/bloggrid" onClick={() => setExpanded(false)}>Blog Grid</NavDropdown.Item>
-              <NavDropdown.Item as={Link} to="/blogsidebar" onClick={() => setExpanded(false)}>Blog Sidebar</NavDropdown.Item>
-              <NavDropdown.Item as={Link} to="/blogdetails" onClick={() => setExpanded(false)}>Blog Details</NavDropdown.Item>
+              <NavDropdown.Item as={Link} to="/bloggrid" onClick={() =>{ window.scrollTo(0, 0); setExpanded(false)}}>Blog Grid</NavDropdown.Item>
+              <NavDropdown.Item as={Link} to="/blogsidebar" onClick={() =>{ window.scrollTo(0, 0); setExpanded(false)}}>Blog Sidebar</NavDropdown.Item>
+              <NavDropdown.Item as={Link} to="/blogdetails" onClick={() =>{ window.scrollTo(0, 0); setExpanded(false)}}>Blog Details</NavDropdown.Item>
             </NavDropdown>
-            <Nav.Link as={Link} to="/contact" className="nav-item" onClick={() => setExpanded(false)}>Contact</Nav.Link>
+            <Nav.Link as={Link} to="/contact" className="nav-item" onClick={() =>{ window.scrollTo(0, 0); setExpanded(false)}}>Contact</Nav.Link>
           </Nav>
           <div className="ml-lg-4 mt-4 mt-lg-0 ml-auto text-lg-right mb-3 mb-lg-0 navbar-contact-info">
-            <Link className="ph-link" to="tel:+23-345-67890" onClick={() => setExpanded(false)}>
+            <Link className="ph-link" to="tel:+23-345-67890" onClick={() => { window.scrollTo(0, 0);setExpanded(false)}}>
               <h3 className="text-color mb-0">
                 <i className="fas fa-mobile-alt mr-2"></i>+23-563-5688
               </h3>

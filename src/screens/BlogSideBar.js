@@ -92,38 +92,15 @@ const BlogSideBar = () => {
         <i className="fas fa-search position-absolute"></i>
       </form>
     </div>
-    <div className="mb-5 follow">
-      <h5 className="font-secondary mb-4">
-        <i className="fas fa-minus mr-2 text-color"></i>Follow us
-      </h5>
-      <ul class="listgroup" style={{ listStyleType: 'none', padding: 0, display: 'flex' }}>
-      <li>
-        <Link to="#" className="text-muted">
-          <i className="fab fa-facebook"></i>
-        </Link>
-      </li>
-      <li>
-        <Link to="#" className="text-muted">
-          <i className="fab fa-twitter"></i>
-        </Link>
-      </li>
-      <li >
-        <Link to="#" className="text-muted">
-          <i className="fab fa-linkedin"></i>
-        </Link>
-      </li>
-      <li>
-        <Link to="#" className="text-muted">
-          <i className="fab fa-pinterest"></i>
-        </Link>
-      </li>
-      <li>
-        <Link to="#" className="text-muted">
-          <i className="fab fa-dribbble"></i>
-        </Link>
-      </li>
-    </ul>
-    </div>
+    <div class="mb-5 follow justify-content-center ">
+	<h5 class="font-secondary  mb-4"><i class="fas fa-minus mr-2 text-color"></i>Follow us</h5>
+
+	<a href="#" class="text-muted"><i class="fab fa-facebook"></i></a>
+	<a href="#" class="text-muted"><i class="fab fa-twitter"></i></a>
+	<a href="#" class="text-muted"><i class="fab fa-linkedin"></i></a>
+	<a href="#" class="text-muted"><i class="fab fa-pinterest"></i></a>
+	<a href="#" class="text-muted"><i class="fab fa-dribbble"></i></a>
+</div>
     
     <div className="mb-5 meidaimg">
   
@@ -159,7 +136,7 @@ const BlogSideBar = () => {
 <div className='listcontainer'>
       <ul >
         <li className="list-group-item d-flex justify-content-between align-items-center rounded-0 border-0">
-          <Link to="#" className="text-muted1">Fitness</Link>
+          <Link to="#" className=" text-left text-muted1">Fitness</Link>
           <span className="badge bg-danger badge-pill text-white border-0">14</span>
         </li>
         <li className="list-group-item d-flex justify-content-between align-items-center rounded-0 border-0">
@@ -179,7 +156,7 @@ const BlogSideBar = () => {
     </div>
 
     <div class="mb-5 tags">
-	<h5 class="font-secondary mb-4"> <i className="fas fa-minus mr-2 text-color"></i>Tags</h5>
+	<h5 class="font-secondary mb-4"> <i className="fas fa-minus mr-5 text-color"></i>Tags</h5>
       <Link className='lnks' to="/#">Body</Link>
       <Link className='lnks' to="/#">Fitness</Link>
       <Link className='lnks' to="/#">Health</Link>

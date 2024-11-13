@@ -4,7 +4,7 @@ import './PageTitle.css'; // Import custom CSS for styling
 
 const PageTitle = ({ linkText, linkHref, pageName, pageInfo }) => {
   return (
-    <section className="page-title bg-2">
+    <section className="page-title bgg-2">
       <div className="container">
         <div className="row">
           <div className="col-lg-12 text-center">

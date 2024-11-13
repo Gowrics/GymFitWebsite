@@ -4,21 +4,34 @@
 }
 
 .trainersec{
-    height: 270vh;
+    height: 150vh;
+}
+.trainersec .img-fluid{
+    height: 400px;
 }
 .row1{
     position: relative;
-    top: 450px;
+    top: 360px;
 }
 .card-body .text-color {
     color: #f5634b;
-
 }
+
+.team-wrap i  {
+    width: 40px;
+    height: 40px;
+    border: 1px solid #dedede;
+    color: #232323;
+    display: inline-block;
+    text-align: center;
+    padding-top: 6px;
+}
+
+
 .card-body{
     margin-right: 100px;
 
 }
-
 .list-inline-item:not(:last-child) {
     margin-right: .5rem;
 }
@@ -27,9 +40,9 @@
     font-size: 20px;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 412px) {
     .trainersec{
-        height: 780vh;
+        height: 380vh;
     }
 }
 

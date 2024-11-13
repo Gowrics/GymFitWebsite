@@ -2,7 +2,7 @@
     display: block;
     align-items: center;
     justify-content: center;
-    height: 120vh;
+    height: 100vh;
     width: 100%;
     position: relative;
     text-align: left;
@@ -17,11 +17,11 @@
 .row{
     position: relative;
     top: 150px;
-    right: 30px;
 }
 .slider h1 {
-    font-size: 55px;
-    line-height: 75px;
+    font-size: 77px;
+    line-height: 85px;
+    font-weight: 700;
    
 }
 
@@ -54,10 +54,12 @@
 
 @media (max-width: 768px) {
     .slider h1 { font-size: 2rem;line-height: 3rem; }
-   .slider{padding-left: 0px;
-height: 100vh;} 
+   .slider{padding-right: 100px;
+    height: 100vh;} 
 }
-
+ .sectionabout h2{
+    line-height: 46px;
+ }
 
 .sectionabout{
 position: relative; top: -100px;
@@ -94,8 +96,8 @@ position: relative; top: -100px;
     .mt-80px { 
         position: relative;
         top: -50px;
-        right: -60px;
-        width: 80%;
+        right: -20px;
+        width: 90%;
         
     }
     
@@ -254,13 +256,14 @@ p {
 .cta {
     display: block;
     align-items: center;
+    padding-top: 60px;
     justify-content: center;
      height: auto;
-    min-height: 70vh; 
+    min-height: 50vh; 
     position: relative;
     top: -10px;
     text-align: left;
-    background-image: url('../assets/gymbghome.jpg');
+    background: url('../assets/gymbghome.jpg')fixed 50% 50% no-repeat;
     font-family: "Montserrat", sans-serif;
     background-size: cover;
     background-position: center;
@@ -280,16 +283,13 @@ p {
     background: #000;
     opacity: 0.8;
 }
-@media (max-width: 768px) {
-    .cta {
-        height: auto;
-        min-height: 100vh;
-    }
-}
 @media (max-width: 576px) {
+    .secservices{
+        margin-left: -50px;
+    }
     .cta {
         height: auto;
-        min-height: 120vh;
+        min-height: 80vh;
         padding-left: 20px;
 
     }
@@ -314,12 +314,13 @@ p{
 .secservices .container{
     text-align: center;
 }
-
-
 .secservices  i{
  font-size: 70px;
+}
+.secservices .mt-5{
 
 }
+
 
 /* Gallery.css */
 .gallery .portfolio-gallery .col-lg-3,
@@ -327,6 +328,7 @@ p{
 .gallery .portfolio-gallery .col-sm-6 {
   padding: 0;
 }
+
 .gallery{
     position: relative;
     top: 250px;
@@ -358,16 +360,14 @@ img {
     align-items: center;
     justify-content: center;
     text-align: center;
-    height: auto;
-    min-height: 220vh;
+    height: 180vh;
     position: relative;
-    top: 30px;    
+    top: 40px;
     text-align: left;
-    background-image: url('../assets/gymbghome.jpg');
+    background: url('../assets/gymbghome.jpg') fixed 50% 50% no-repeat;
     font-family: "Montserrat", sans-serif;
     background-size: cover;
     background-position: center;
-    position: relative;
     z-index: 2; /* Ensure content is in front of overlay */
     }
 /* Overlay to create transparent effect */
@@ -383,21 +383,30 @@ img {
     background: #000;
     opacity: 0.8;
 }
-/* Media query for large screens */
-@media (min-width: 992px) {
+
+.textimonial .mt-50{
+    margin-top: 160px;
+}
+@media (max-width: 412px) {
     .textimonial {
         height: 210vh; /* Adjust height for larger screens */
     }
 }
-@media (min-width: 390px) {
+@media (max-width: 390px) {
     .textimonial .testimonial-slider {
         padding-left: 10px; /* Adjust height for larger screens */
     }
 }
+
+.divider {
+    margin: 0 auto;
+    background: #f5634b;
+    width: 45px;
+    height: 4px;
+  }
 .section-title{
     position: relative;
     top: -280px;
-    right: -40px;
     
 }.section-title .text-white{
     font-size: 38px;
@@ -410,13 +419,11 @@ img {
 }
 .testimonial-slider{
     position: relative;
-    top: -150px;
+    top: -20px;
 }
+
 .course {
-    position: relative;
-    top: -30px; /* This negative margin might affect layout; consider removing or adjusting */
-    padding: 20px 0;
-    height: 150vh; /* Be cautious with fixed heights, as they might cause overflow issues */
+    height: 100vh; /* Be cautious with fixed heights, as they might cause overflow issues */
 }
 
 .bg-gray {
@@ -465,11 +472,10 @@ article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
     top: 50px;
 }
 /* Optional: Add some responsiveness */
-@media (max-width: 768px) {
+@media (max-width: 412px) {
     .course {
-        height: 300vh; /* Be cautious with fixed heights, as they might cause overflow issues */
+        height: 280vh; /* Be cautious with fixed heights, as they might cause overflow issues */
     }
-
 }
 
 .btmlast{

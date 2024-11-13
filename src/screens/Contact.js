@@ -42,7 +42,34 @@ const Contact = () => {
                     </div>
                 </form>
             </div>
-</div>
+        </div>
+    <div class="container  mt--170">
+        <div class="row d-flex ">
+            <div class="col-lg-4 col-md-6 mb-4 mb-lg-0">
+                <div class="card rounded-0 border-0 shadow-sm text-center py-5 px-4 contact-info">
+                    <i class="fas fa-mobile mb-3 text-lg text-color"></i>
+                    <span>Call us</span>
+                    <p class="lead text-black mb-0 mt-3">+23 45 67890</p>
+                    <p class="lead">9:00 am - 17:00 pm</p>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 mb-lg-0">
+                <div class="card rounded-0 border-0 shadow-sm text-center py-5 px-4 contact-info">
+                    <i class="fas fa-envelope mb-3 text-lg text-color"></i>
+                    <span>Email at</span>
+                    <p class="lead text-black mt-3 mb-0">support@themefisher.com</p>
+                    <p class="lead text-black ">support@gymfit.com</p>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-6 mb-4 mb-lg-0">
+                <div class="card rounded-0 border-0 shadow-sm text-center py-5 px-4 contact-info">
+                    <i class="fas fa-home mb-3 text-lg text-color"></i>
+                    <span>Location</span>
+                    <p class="lead text-black mt-3">Fitness Center Bedford Heights,North London, USA</p>
+                </div>
+            </div>
+        </div>
+    </div>
     </div>
   );
 }

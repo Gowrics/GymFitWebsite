@@ -10,11 +10,11 @@ import SectionTitle from '../comonent/SectionTitleComponent';
 
 const About = () => {
   return (
-    <div className='main-container'>
+    <div className='main-container '>
     <PageTitle linkText="Home" linkHref="/" pageName="About us" pageInfo="What we are" />
 
-    <section className="section-about">
-      <div className="container1">
+    <section className="section-about ">
+      <div className="container1 justify-content-center">
         <div className="row align-items-center">
           {/* Column for the first image */}
           <div className="col-lg-3 col-md-6">
@@ -30,7 +30,7 @@ const About = () => {
           <div className="col-lg-6 col-md-12">
             <div className="about-item position-relative mt-5 mt-lg-0">
               <span className="h5 text-lg text-muted">Est:1990</span>
-              <h2 className="mt-1 mb-3"  style={{ fontWeight: '700' }}>
+              <h2 className="mt-1 mb-3"  style={{ fontWeight: '700',lineHeight:'40px' ,fontSize:'26px'}}>
                 Having <span className="text-color">10 years</span> of experience in fitness
               </h2>
               <p className="mb-4">
@@ -46,7 +46,7 @@ const About = () => {
     <section class="section why">
 	<div class="container1">
 	<div class="row rowabout  ms-5 justify-content-center">
-     	<div class="row  justify-content-center" > 
+     	<div class="row me-5 justify-content-center" > 
 
 	{/*<div class="row rowtitle ms-5 justify-content-center">*/}
 		<SectionTitle title="Why Choose us" line="___" description=""/>

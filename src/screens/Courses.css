@@ -1,13 +1,13 @@
 h2, .h2 {
         font-size: 38px;
         text-transform: uppercase;
-       font-weight: 700;
-    line-height: 66px;
-    }
+        font-weight: 700;
+        line-height: 66px;
+        }      
 .course1{
-        height: 250vh;
-    }
-    .course1 .card-body a h4:hover {
+        height: 170vh;
+        }
+.course1 .card-body a h4:hover {
         color: #f5634b;
       }
       
@@ -21,26 +21,19 @@ h2, .h2 {
         height: 300px;
 }
 .crdcourse{
-        width: 400px;
+        width: 350px;
+        height: 450px;
+        margin-top: 100px;
 }
 
 .rowcourse{
         position: relative;
-        top: 350px;
+        top: 470px;
 }
-@media (max-width: 768px) {
+    @media (max-width: 412px) {
         .course1 {
-            height: 440vh; /* Be cautious with fixed heights, as they might cause overflow issues */
-             padding-left: 40px;
-
-        }
-
-    
-    }
-    @media (max-width: 360px) {
-        .course1 {
-            height: 540vh; /* Be cautious with fixed heights, as they might cause overflow issues */
-             padding-left: 40px;
+            height: 400vh; /* Be cautious with fixed heights, as they might cause overflow issues */
+             padding-left: 20px;
 
         }
 

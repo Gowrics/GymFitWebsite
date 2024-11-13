@@ -45,8 +45,8 @@ const Home = () => {
 				<span class="h6 d-inline-block mb-4 subhead text-uppercase">Gym fitness club</span>
 				<h1 class="text-uppercase text-white mb-4">Step up your <br/> <span class="text-color">fitness Challange</span><br/>with us</h1>
 
-				<Link to="pricing.html" target="_blank" class="btn btn-main " >Join Us <i class="ti-angle-right ml-3"></i></Link>
-			</div>
+				<ButtonComponent text="Join Us" link="#" />
+				</div>
 		</div>
 	</div>
 </section>
@@ -74,11 +74,11 @@ const Home = () => {
         <div className="container">
         <div className="row align-items-center">
 		<div class="col-lg-5">
-			        <img src={img1} alt="Fitness Facility"  className="img-fluid rounded mb-5 me-4 shadow w-100" style={{width:'300px',height:'40%'}} />
+			        <img src={img1} alt="Fitness Facility"  className="img-fluid rounded mb-0 me-4 shadow w-100" style={{width:'300px',height:'40%'}} />
     </div>
     <div className="col-lg-6">
-        <div className="pl-3 mt-5 mt-lg-0">
-            <h2 className="mt-1 mb-3">We’ve skill in <br />wide <span className="text-color">range of fitness</span> and other body health facilities.</h2>
+        <div className="pl-3 mt-4 mt-lg-0">
+            <h2 className="mt-2 mb-3">We’ve skill in <br />wide <span className="text-color">range of fitness</span> and other body health facilities.</h2>
             <p className="mb-4">Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis Theme natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aliquam lorem ante, dapibus in.</p>
             <ButtonComponent text="Learn More" link="#" />
         </div>
@@ -88,10 +88,10 @@ const Home = () => {
      </section>
       </div>
       <div className='sec4'>
-        <section class="section cta">
+        <section class="section cta ">
 	<div class="container">
 		<div class="row  justify-content-center">
-			<div class="col-lg-8 col-md-12 col-sm-12">
+			<div class="col-lg-8 col-md-12 col-sm-12  ">
 				<div class="text-center">
 					<span class="h6 letter-spacing text-white">Discover your potential</span>
 					<h2 class="text-lg mt-4 mb-5  text-white">
@@ -106,10 +106,10 @@ const Home = () => {
 </div>
 <div className='sec5'>
 <section className="secservices ">
-	<div class="container  justify-content-center">
-		<div class="row  ms-5 justify-content-center">
-		<div class="row  justify-content-center" >
-		<SectionTitle title="Our Services" line="___" description="We offer more than 35 group exercis, aerobic classes each week."/>
+	<div class="container mt-5 justify-content-center" >
+		<div class="row mt5 ms-5 mt-5  justify-content-center" >
+		<div class="row  mt5 justify-content-center" >
+		<SectionTitle  title="Our Services" description="We offer more than 35 group exercis, aerobic classes each week."/>
 			</div>
 
 			<div class="col-lg-4  justify-content-center col-md-6 col-sm-6">
@@ -169,7 +169,7 @@ const Home = () => {
 <section class="section course bg-gray">
 	<div class="container">
 		<div class="row justify-content-center">
-		<SectionTitle title="Popular Courses" line="___" description="We offer more than 35 group exercis, aerobic classes each week."/>
+		<SectionTitle title="Popular Courses" description="We offer more than 35 group exercis, aerobic classes each week."/>
 		</div>
 
 		<div class="row row2 ps-5">

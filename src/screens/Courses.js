@@ -21,11 +21,11 @@ const CoursePage = () => {
 					<img src={img3} alt="" class="img-fluid imgcrd"/>
 
 					<div class="card-body">
-						<a href="course-single.html"><h4 class="mt-3 mb-0">Build Body</h4></a>
-						<p class=" mb-2">Mentor: Jimmy Karter</p>
+						<a href="course-single.html"><h4 class="mt-0 mb-0">Build Body</h4></a>
+						<p class=" mb-0">Mentor: Jimmy Karter</p>
 						<ul class="list-inline">
 							<li class="list-inline-item">
-							<i class="fas fa-clock mr-2 text-color" style={{padding:'4px'}}></i>
+							<i class="fas fa-clock mr-2 text-color"></i>
 							Monday-Tuesday :
 							</li>
 							<li class="list-inline-item text-black">
@@ -37,15 +37,15 @@ const CoursePage = () => {
 			</div>
 
 			<div class="col-lg-4 col-md-6">
-				<div class="card crdcourse rounded-0 p-0 mb-5">
+				<div class="card crdcourse  rounded-0 mb-5">
 					<img src={img2} alt="" class="img-fluid imgcrd"/>
 
 					<div class="card-body">
-						<a href="course-single.html"><h4 class="mt-3 mb-0">Build Body</h4></a>
-						<p class=" mb-2">Mentor: Jimmy Karter</p>
+						<a href="course-single.html"><h4 class="mt-0 mb-0">Build Body</h4></a>
+						<p class=" mb-0">Mentor: Jimmy Karter</p>
 						<ul class="list-inline">
 							<li class="list-inline-item">
-							<i class="fas fa-clock mr-2 text-color" style={{padding:'4px'}}></i>
+							<i class="fas fa-clock mr-2 text-color" ></i>
 							Monday-Tuesday :
 							</li>
 							<li class="list-inline-item text-black">
@@ -61,11 +61,11 @@ const CoursePage = () => {
 					<img src={img3} alt="" class="img-fluid imgcrd"/>
 
 					<div class="card-body">
-						<a href="course-single.html"><h4 class="mt-3 mb-0">Build Body</h4></a>
-						<p class=" mb-2">Mentor: Jimmy Karter</p>
+						<a href="course-single.html"><h4 class="mt-0 mb-0">Build Body</h4></a>
+						<p class=" mb-0">Mentor: Jimmy Karter</p>
 						<ul class="list-inline">
 							<li class="list-inline-item">
-							<i class="fas fa-clock mr-2 text-color" style={{padding:'4px'}}></i>
+							<i class="fas fa-clock mr-2 text-color" ></i>
 							Monday-Tuesday :
 							</li>
 							<li class="list-inline-item text-black">
@@ -80,11 +80,11 @@ const CoursePage = () => {
 					<img src={img3} alt="" class="img-fluid imgcrd"/>
 
 					<div class="card-body">
-						<a href="course-single.html"><h4 class="mt-3 mb-0">Build Body</h4></a>
-						<p class=" mb-2">Mentor: Jimmy Karter</p>
+						<a href="course-single.html"><h4 class="mt-0 mb-0">Build Body</h4></a>
+						<p class=" mb-0">Mentor: Jimmy Karter</p>
 						<ul class="list-inline">
 							<li class="list-inline-item">
-							<i class="fas fa-clock mr-2 text-color" style={{padding:'4px'}}></i>
+							<i class="fas fa-clock mr-2 text-color" ></i>
 							Monday-Tuesday :
 							</li>
 							<li class="list-inline-item text-black">
@@ -100,11 +100,11 @@ const CoursePage = () => {
 					<img src={img3} alt="" class="img-fluid imgcrd"/>
 
 					<div class="card-body">
-						<a href="course-single.html"><h4 class="mt-3 mb-0">Build Body</h4></a>
-						<p class=" mb-2">Mentor: Jimmy Karter</p>
+						<a href="course-single.html"><h4 class="mt-0 mb-0">Build Body</h4></a>
+						<p class=" mb-0">Mentor: Jimmy Karter</p>
 						<ul class="list-inline">
 							<li class="list-inline-item">
-							<i class="fas fa-clock mr-2 text-color" style={{padding:'4px'}}></i>
+							<i class="fas fa-clock mr-2 text-color" ></i>
 							Monday-Tuesday :
 							</li>
 							<li class="list-inline-item text-black">
@@ -120,8 +120,8 @@ const CoursePage = () => {
 					<img src={img1} alt="" class="img-fluid imgcrd"/>
 
 					<div class="card-body">
-						<a href="course-single.html"><h4 class="mt-3 mb-0">Build Body</h4></a>
-						<p class=" mb-2">Mentor: Jimmy Karter</p>
+						<a href="course-single.html"><h4 class="mt-0 mb-0">Build Body</h4></a>
+						<p class=" mb-0">Mentor: Jimmy Karter</p>
 						<ul class="list-inline">
 							<li class="list-inline-item">
 							<i class="fas fa-clock mr-2 text-color" style={{padding:'4px'}}></i>

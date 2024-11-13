@@ -11,6 +11,19 @@ height: 200px;
 .card1:hover {
     transform: translateY(-5px);  
 }
+.card1 h3 {
+ font-size: 18px;
+ line-height: 3px;
+ font-weight: 700;
+}
+
+.card1 p {
+    line-height: 1.8;
+    font-family: "Montserrat", sans-serif;
+    -webkit-font-smoothing: antialiased;
+    font-size: 16px;
+    color: rgba(0, 0, 0, 0.6);    
+}
 .card1 .number {
     opacity: 0.1;
     font-size: 130px;

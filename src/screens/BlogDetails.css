@@ -1,17 +1,20 @@
 .blogdet {
-    height: 420vh;
+    height: 300vh;
   }
   
-  @media (max-width: 360px) {
+  @media (max-width: 412px) {
     .blogdet {
-      height: 830vh; /* Adjust as needed */
-     }
-     .blogdet section{
-        margin-left: 100px;
+      height: 570vh; /* Adjust as needed */
      }
      .blogdet .row11{
-        height: 600vh;
-     } 
+        height: 400vh;     
+      }
+     .meidaimg{
+      margin-left: 60px;
+   }
+   .social-share{
+      margin-left: 60px;     
+   }
 .sideicon .follow .listgroup{
         margin-right: 160px;
     } }
