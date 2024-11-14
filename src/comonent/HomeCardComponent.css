@@ -9,7 +9,10 @@ height: 200px;
 }
 
 .card1:hover {
-    transform: translateY(-5px);  
+    transform: translateY(-5px);
+    i{
+        color: white;
+    }  
 }
 .card1 h3 {
  font-size: 18px;

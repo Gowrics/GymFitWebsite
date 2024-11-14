@@ -5,7 +5,13 @@ import img2 from '../assets/img2.jpeg'; // Adjust path based on image location
 import img3 from '../assets/img3.jpeg'; // Adjust path based on image location
 import './Courses.css';
 import SectionTitle from '../comonent/SectionTitleComponent';
+import { Link, useNavigate } from 'react-router-dom';
 const CoursePage = () => {
+	const navigate = useNavigate();
+	const goToCourseSingle = () => {
+		// Programmatically navigate to the /coursesingle page
+		navigate('/coursesingle');
+	  };
   return (
     <div>
     <PageTitle linkText="Home" linkHref="/" pageName="Course" pageInfo="Best course" />
@@ -21,7 +27,7 @@ const CoursePage = () => {
 					<img src={img3} alt="" class="img-fluid imgcrd"/>
 
 					<div class="card-body">
-						<a href="course-single.html"><h4 class="mt-0 mb-0">Build Body</h4></a>
+						<Link to="/coursesingle"><h4 class="mt-0 mb-0">Build Body</h4></Link>
 						<p class=" mb-0">Mentor: Jimmy Karter</p>
 						<ul class="list-inline">
 							<li class="list-inline-item">
@@ -41,7 +47,7 @@ const CoursePage = () => {
 					<img src={img2} alt="" class="img-fluid imgcrd"/>
 
 					<div class="card-body">
-						<a href="course-single.html"><h4 class="mt-0 mb-0">Build Body</h4></a>
+						<Link to="/coursesingle" onClick={goToCourseSingle}><h4 class="mt-0 mb-0">Build Body</h4></Link>
 						<p class=" mb-0">Mentor: Jimmy Karter</p>
 						<ul class="list-inline">
 							<li class="list-inline-item">
@@ -61,7 +67,7 @@ const CoursePage = () => {
 					<img src={img3} alt="" class="img-fluid imgcrd"/>
 
 					<div class="card-body">
-						<a href="course-single.html"><h4 class="mt-0 mb-0">Build Body</h4></a>
+						<Link to="/coursesingle" onClick={goToCourseSingle}><h4 class="mt-0 mb-0">Build Body</h4></Link>
 						<p class=" mb-0">Mentor: Jimmy Karter</p>
 						<ul class="list-inline">
 							<li class="list-inline-item">
@@ -80,7 +86,7 @@ const CoursePage = () => {
 					<img src={img3} alt="" class="img-fluid imgcrd"/>
 
 					<div class="card-body">
-						<a href="course-single.html"><h4 class="mt-0 mb-0">Build Body</h4></a>
+						<Link to="/coursesingle"><h4 class="mt-0 mb-0">Build Body</h4></Link>
 						<p class=" mb-0">Mentor: Jimmy Karter</p>
 						<ul class="list-inline">
 							<li class="list-inline-item">
@@ -100,7 +106,7 @@ const CoursePage = () => {
 					<img src={img3} alt="" class="img-fluid imgcrd"/>
 
 					<div class="card-body">
-						<a href="course-single.html"><h4 class="mt-0 mb-0">Build Body</h4></a>
+						<Link to="/coursesingle"><h4 class="mt-0 mb-0">Build Body</h4></Link>
 						<p class=" mb-0">Mentor: Jimmy Karter</p>
 						<ul class="list-inline">
 							<li class="list-inline-item">
@@ -120,7 +126,7 @@ const CoursePage = () => {
 					<img src={img1} alt="" class="img-fluid imgcrd"/>
 
 					<div class="card-body">
-						<a href="course-single.html"><h4 class="mt-0 mb-0">Build Body</h4></a>
+						<Link to="/coursesingle"><h4 class="mt-0 mb-0">Build Body</h4></Link>
 						<p class=" mb-0">Mentor: Jimmy Karter</p>
 						<ul class="list-inline">
 							<li class="list-inline-item">

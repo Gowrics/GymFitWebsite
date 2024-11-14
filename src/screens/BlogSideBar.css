@@ -51,23 +51,24 @@ width: 350px;
   margin-top: 143px;
 }
 
-.follow a {
-  font-size: 20px;
-  width: 35px;
-  height: 35px;
-  background: #fff; /* White background */
-  display: inline-block;
-  text-align: center;
-  padding-left: 7px;
-  line-height: 35px; /* Centers the icon vertically */
-  margin-right: 10px; /* Space between icons */
-  color: #333; /* Icon color, you can change this */
-
+.icon-container {
+  display: flex;
+  gap: 6px; /* Adjust the spacing between icons */
 }
 
-.follow i:hover {
-  background-color: #f1f1f1; /* Light grey background on hover */
-  color: #007bff; /* Change icon color on hover */
+.icon-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 35px;
+  height: 35px;
+  background-color: white;
+  color: #7e7c7c; /* Adjusts the icon color */
+ }
+
+.icon-box i {
+  font-size: 18px; /* Adjust the size of the icons */
+  margin: 0px;
 }
 
 
@@ -109,6 +110,10 @@ width: 350px;
     .mt5{
       margin-left: 30px;
     }
+    .icon-box { width: 36px;  
+      height: 36px; 
+       font-size: 16px; } 
+    .icon-container { gap: 5px; }
     .follow{
       margin-left: 60px;
     }

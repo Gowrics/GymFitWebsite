@@ -155,39 +155,16 @@ const BlogDetails = () => {
         <i className="fas fa-search position-absolute"></i>
       </form>
     </div>
-    <div className="mb-5 follow">
-      <h5 className="font-secondary mb-4">
-        <i className="fas fa-minus mr-2 text-color"></i>Follow us
-      </h5>
-      <ul class="listgroup" style={{ listStyleType: 'none', padding: 0, display: 'flex' }}>
-      <li>
-        <Link to="#" className="text-muted">
-          <i className="fab fa-facebook"></i>
-        </Link>
-      </li>
-      <li>
-        <Link to="#" className="text-muted">
-          <i className="fab fa-twitter"></i>
-        </Link>
-      </li>
-      <li >
-        <Link to="#" className="text-muted">
-          <i className="fab fa-linkedin"></i>
-        </Link>
-      </li>
-      <li>
-        <Link to="#" className="text-muted">
-          <i className="fab fa-pinterest"></i>
-        </Link>
-      </li>
-      <li>
-        <Link to="#" className="text-muted">
-          <i className="fab fa-dribbble"></i>
-        </Link>
-      </li>
-    </ul>
-    </div>
-    
+    <div className="mb-5 follow  ">
+	<h5 className="font-secondary  mb-4"><i className="fas fa-minus mr-2 text-color"></i>Follow us</h5>
+  <div class="icon-container ">
+  <a href="#" className="icon-box"><i className="fab fa-facebook"></i></a>
+  <a href="#" className="icon-box"><i className="fab fa-twitter"></i></a>
+  <a href="#" className="icon-box"><i className="fab fa-linkedin"></i></a>
+  <a href="#" className="icon-box"><i className="fab fa-pinterest"></i></a>
+  <a href="#" className="icon-box"><i className="fab fa-dribbble"></i></a>
+</div>
+    </div>    
     <div className="mb-5 meidaimg">
   
     <h5 className="font-secondary mb-4">

@@ -13,6 +13,7 @@ import BlogGrid from './screens/BlogGrid';
 import BlogSideBar from './screens/BlogSideBar';
 import BlogDetails from './screens/BlogDetails';
 import Contact from './screens/Contact';
+import CourseSingle from './screens/CourseSingle';
 
 function App() {
   return (
@@ -22,13 +23,16 @@ function App() {
         <Route path="/" element={<Home />} /> 
         <Route path="/about" element={<About />} /> 
         <Route path="/trainer" element={<Trainers />} /> 
-        <Route path="/courses" element={<CoursePage />} /> 
+        <Route path="/courses" element={<CoursePage />} />  
         <Route path="/services" element={<Services />} /> 
         <Route path="/membership" element={<Membership />} /> 
         <Route path="/bloggrid" element={<BlogGrid />} /> 
         <Route path="/blogsidebar" element={<BlogSideBar />} />
         <Route path="/blogdetails" element={<BlogDetails />} />
         <Route path="/contact" element={<Contact />} />
+        <Route path="/coursesingle" element={<CourseSingle />} />
+ 
+        
       </Routes>
       <FooterComponent/>
     </Router>
