@@ -38,18 +38,5 @@ React.js: Front-end framework for building UI components.
 Bootstrap: For responsive and mobile-first design.
 Font Awesome: For icons and visual enhancements.
 React Router: For routing between pages.
-Project Structure 📂
-php
-Copy code
-GymFitWebsite/
-├── public/
-├── src/
-│   ├── components/   # Reusable components like Navbar, Footer
-│   ├── screens/      # Individual pages (Home, About, Contact, etc.)
-│   ├── assets/       # Images and static resources
-│   ├── App.js        # Main application logic
-│   ├── index.js      # Entry point
-├── README.md         # Project documentation
-Preview 🌐
 
 Visit the live website here: https://gowrics.github.io/GymFitWebsite
